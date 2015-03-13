@@ -3,8 +3,8 @@ Created on Mar 13, 2015
 
 @author: deray
 '''
-from shapes.shape import Shape
 import math
+from shapes.shape import Shape
 
 class Triangle(Shape):
     '''

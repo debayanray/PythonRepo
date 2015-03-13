@@ -4,11 +4,9 @@ Created on Mar 13, 2015
 @author: deray
 '''
 import unittest
-from shapes import Triangle
-from shapes.triangle import calculateTriangleArea
+from shapes import Triangle, calculateTriangleArea
 
 class TriangleTest(unittest.TestCase):
-
 
     def setUp(self):
         self._sideA = 5
