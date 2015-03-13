@@ -3,11 +3,8 @@ Created on Mar 12, 2015
 
 @author: deray
 '''
-# from shapes.circle import Circle
-# from shapes.rectangle import Rectangle
 from shapes import Circle
 from shapes import Rectangle
-
 
 if __name__ == '__main__':
     
@@ -18,3 +15,4 @@ if __name__ == '__main__':
     rectangle = Rectangle(10, 5)
     print("Rectangle: Area is %.2f" % rectangle.area())
     print("Rectangle: Perimeter is %.2f" % rectangle.perimeter())
+
